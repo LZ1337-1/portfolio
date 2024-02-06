@@ -8,7 +8,7 @@ import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
-<link rel="icon" href="/favicon.ico" />;
+<link rel="icon" href="public/favicon.ico" />;
 export const metadata = {
   title: "Sylvain | Portfolio",
   description: "Etudiant en informatique à l'université Paris-Est Creteil.",
