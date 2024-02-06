@@ -7,6 +7,8 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { BiArrowFromTop } from "react-icons/bi";
+import { BsArrowBarDown, BsArrowDownRight } from "react-icons/bs";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -29,7 +31,7 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Contactez moi <BsArrowBarDown className="text-4xl mx-auto mb-4" /></SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Contactez moi à : {" "}

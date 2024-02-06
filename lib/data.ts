@@ -39,7 +39,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Baccalaureat générale (High School Diploma)",
+    title: "Baccalaureat général (High School Diploma)",
     location: "Cachan, France",
     description:
       "J'ai obtenu mon baccalauréat général. J'ai étudié les mathématiques, et l'informatique.",
